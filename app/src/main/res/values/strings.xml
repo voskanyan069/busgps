@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BusGPS</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="disabled_geolocation_text">Please enable Geolocation and open app again</string>
+<!--    <string name="check">Try again</string>-->
+</resources>

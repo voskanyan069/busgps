@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorBackground"
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="15.0sp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:textSize="35.0sp"
+            android:textColor="@color/colorFont"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200.0sp"
+            android:text="@string/disabled_geolocation_text"
+            android:fontFamily="@font/fredoka_one" />
+
+        <!--
+
+        <Button
+            android:id="@+id/check_again"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50.0sp"
+            android:paddingTop="10.0sp"
+            android:paddingLeft="50.0sp"
+            android:paddingRight="50.0sp"
+            android:paddingBottom="10.0sp"
+            android:textSize="30.0sp"
+            android:layout_gravity="center"
+            android:background="@drawable/check_button_layout"
+            android:text="@string/check"
+            android:textColor="@color/colorFont"
+            android:fontFamily="@font/fredoka_one" />
+            -->
+
+    </LinearLayout>
+</RelativeLayout>
